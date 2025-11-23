@@ -7,15 +7,9 @@
 
 ## 1. Overview & Objectives
 
-This repository contains the complete implementation, experimental data, and supplementary results for the paper **"Multi-Agent Recovery of Urban Lifeline Networks via GraphRAG-Enhanced Knowledge Retrieval and Monte-Carlo Planning"** (title placeholder).  
+This repository contains the complete implementation, experimental data, and supplementary results for the paper **×××** developed by **XXX University** in China, and .  
 
-The work proposes a hybrid agent framework that combines:
-- GraphRAG for structured retrieval over interdependent infrastructure networks
-- Monte-Carlo Planning (MCP) for long-horizon decision making under uncertainty
-- Multi-agent collaboration for coordinated recovery scheduling
-
-The framework is evaluated on real-world urban lifeline systems (power, water, transportation, communication) subjected to extreme events.
-
+Pending publication, the code is shared under a restrictive license. Once the paper is accepted, the repository will transition to a MIT license. Please contact the corresponding author for any inquiries regarding academic use during the review period.
 
 ## 2. Videos of agents operation
 
@@ -61,21 +55,7 @@ The full video can be found here ()
 
 
 ## 3. Repository Structure
-├── data/                  # Network datasets and damage scenarios
 
-├── tools/                 # 52 custom recovery tools (graph operations, simulation, etc.)
-
-├── agents_reAct/          # Baseline ReAct agents (8 LLMs)
-
-├── agents_graphRAG_MCP/   # Proposed GraphRAG + MCP agents (main contribution)
-
-├── prototype/             # Interactive prototype with dynamic tool registration
-
-├── experiments/           # Scripts for all reported experiments
-
-├── results/               # Raw and processed results (will be linked)
-
-└── videos/                # Demonstration videos (to be added)
 
 
 ## 4. Acknowledgments
@@ -83,13 +63,11 @@ The full video can be found here ()
 This work heavily relies on excellent open-source projects, including but not limited to:
 - LangGraph & LangChain
 - 
-- Microsoft GraphRAG
-- 
-- Hugging Face Transformers & leaderboard projects
+- Hugging Face MTEB leaderboard
 - 
 - NetworkX, PyTorch Geometric, and numerous LLM providers (OpenAI, Anthropic, Qwen, Llama, etc.)
 
-We are deeply grateful to all contributors of these foundational tools.
+We are deeply grateful to all contributors of these foundational work.
 
 ## 5. How to Reuse This Repository
 
@@ -113,6 +91,5 @@ We are deeply grateful to all contributors of these foundational tools.
 - Web-based GUI + terminal interface
 - Supports on-the-fly addition of new recovery actions
 
-## 6. Supplementary Materials
 
 
