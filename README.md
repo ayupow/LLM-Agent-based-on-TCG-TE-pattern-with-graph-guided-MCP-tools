@@ -62,8 +62,11 @@ The full video can be found here (https://github.com/ayupow/Smart-Agents-for-the
 
 ## 3. Repository Structure
 ├── data/                  # Network datasets and damage scenarios
+
 ├── tools/                 # 52 custom recovery tools (graph operations, simulation, etc.)
+
 ├── agents_reAct/          # Baseline ReAct agents (8 LLMs)
+
 ├── agents_graphRAG_MCP/   # Proposed GraphRAG + MCP agents (main contribution)
 
 ├── prototype/             # Interactive prototype with dynamic tool registration
