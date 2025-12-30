@@ -36,6 +36,7 @@ The full video can be found here ()
 ### 2.3 Operation of agents based on TCG-TE pattern
 
 ↓↓↓ A snippet of operating the **TCG-TE agents with graph-guided MCP tools driven by Claude sonnet 3.7**.
+![12月30日 (1)](https://github.com/user-attachments/assets/18879542-62bf-4bba-b764-f56af0d776d0)
 
 ↓↓↓ A snippet of operating the **TCG-TE agents with graph-guided MCP tools driven by GPT-5**.
 
