@@ -1,4 +1,4 @@
-# 
+# Large language model (LLM) agents based on tool chian generation (TCG)-tool execution (TE) pattern with graph-guided model context protocol (MCP) tools
 
 ## ⚠️ Important Notice ⚠️
 ## __As the paper is under review, all contents in this repository are currently not permitted for reuse by anyone until this announcement is removed. Thank you for your understanding! 🙏__
@@ -14,47 +14,36 @@ Pending publication, the code is shared under a restrictive license. Once the pa
 
 ### 2.1 Operation of the developed prototype
 
-↓↓↓ A snippet of using the **developed prototype** to run the TS-ReAct-based agents driven by GPT-4o
+↓↓↓ A snippet of using the **prototype** to operate the TCG-TE LNR agents using graph-guided MCP tools
 
 
 
-↓↓↓ A snippet of **updating the tool kit in the prototype**
+↓↓↓ A snippet of using the **prototype** to integrate a new server
 
 
 
-The full video to showcase the prototype and tool kit updating can be found in: 
+The full video to showcase the prototype and server updating can be found in: 
 
-### 2.2 Operation of agents based on ReAct pattern
+### 2.2 Operation of agents based on NPG-TE pattern
 
-↓↓↓ A snippet of running the **ReAct-based agents driven by GPT-4o, GPT-4, and GPT-3.5 Turbo**.
+↓↓↓ A snippet of operating the **NPG-TE agents with discrete MCP tools driven by GPT-5**.
 
-
+↓↓↓ A snippet of operating the **NPG-TE agents with discrete MCP tools driven by GPT-4o**.
 
 The full video can be found here ()
  
-↓↓↓ A snippet of running the **ReAct-based agents driven by Qwen2.5, Deepseek-V3, Gemma-2, Llama-3.1, and Mixtral MoE**.
 
+### 2.3 Operation of agents based on TCG-TE pattern
 
+↓↓↓ A snippet of operating the **TCG-TE agents with graph-guided MCP tools driven by Claude sonnet 3.7**.
 
-The full video can be found here ()
+↓↓↓ A snippet of operating the **TCG-TE agents with graph-guided MCP tools driven by GPT-5**.
 
-### 2.3 Operation of agents based on TS-ReAct pattern
-
-↓↓↓ A snippet of running the **TS agent based on TS-ReAct pattern**. 
-
-
+↓↓↓ A snippet of operating the **TCG-TE agents with graph-guided MCP tools driven by GPT-4.1**.
 
 The full video can be found here ()
-
-↓↓↓ A snippet of running the **ReAct agent based on TS-ReAct pattern**. 
-
-
-
-The full video can be found here ()
-
 
 ## 3. Repository Structure
-
 
 
 ## 4. Acknowledgments
@@ -68,27 +57,7 @@ This work heavily relies on excellent open-source projects, including but not li
 
 We are deeply grateful to all contributors of these foundational work.
 
-## 5. How to Reuse This Repository
 
-### 5.1 Importing the Lifeline Recovery Tool Set
-1. Copy all tool definition files from `tools/` into your target agent directory.
-2. Import the tools using the standardized registry pattern shown in the example notebooks.
-
-### 5.2 Running Baseline ReAct Agents
-- Directory: `agents_reAct/`
-- Supports 8 different LLMs (GPT-4o, Claude-3, Llama-3.1-405B, Qwen2.5, etc.)
-- Ready-to-run scripts with configuration YAMLs
-
-### 5.3 Running the Proposed GraphRAG + MCP Agents
-- Directory: `agents_graphRAG_MCP/`
-- Same 8 backbone LLMs
-- Includes GraphRAG index construction scripts and MCP search configurations
-
-### 5.4 Running the Interactive Prototype
-- Directory: `prototype/`
-- Dynamic tool registration/hot-reloading
-- Web-based GUI + terminal interface
-- Supports on-the-fly addition of new recovery actions
 
 
 
