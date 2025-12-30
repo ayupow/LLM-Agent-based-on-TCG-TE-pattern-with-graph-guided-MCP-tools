@@ -14,13 +14,9 @@ Pending publication, the code is shared under a restrictive license. Once the pa
 
 ### 2.1 Operation of the developed prototype
 
-↓↓↓ A snippet of using the **prototype** to operate the TCG-TE LNR agents using graph-guided MCP tools
+↓↓↓ A demonstration of using the **prototype** to operate the TCG-TE LNR agents using graph-guided MCP tools
 
-
-
-↓↓↓ A snippet of using the **prototype** to integrate a new server
-
-
+<img width="880" height="436" alt="image" src="https://github.com/user-attachments/assets/e0bde126-5fe6-4b1e-820f-5d8b8ad7b488" />
 
 The full video to showcase the prototype and server updating can be found in: 
 
