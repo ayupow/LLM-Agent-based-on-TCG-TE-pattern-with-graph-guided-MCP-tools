@@ -1,7 +1,7 @@
 # Large language model (LLM) agents based on tool chian generation (TCG)-tool execution (TE) pattern with graph-guided model context protocol (MCP) tools
 
-## ⚠️ Important Notice ⚠️
-## __As the paper is under review, all contents in this repository are currently not permitted for reuse by anyone until this announcement is removed. Thank you for your understanding! 🙏__
+## 📣 Important Notice 
+## __⚠️ As the paper is under review, all contents in this repository are currently not permitted for reuse by anyone until this announcement is removed. Thank you for your understanding! 🙏__
 
 
 ## 1. Overview & Objectives
