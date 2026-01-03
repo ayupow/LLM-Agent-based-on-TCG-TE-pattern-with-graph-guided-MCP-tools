@@ -64,7 +64,7 @@ The full video can be found here
 
 <video src="https://github.com/user-attachments/assets/8159ea48-1421-4158-b067-1bdcd8dd531e" width="880"></video> 
 
-↓↓↓ A snippet of the operation of
+↓↓↓ A screenshot of Agent's response
 <img width="1867" height="636" alt="gpt-4o-MCP-RAG" src="https://github.com/user-attachments/assets/cb356f9d-17bc-4adb-823c-8a32e5e23156" />
 
 The full video can be found here
