@@ -14,14 +14,13 @@ import pandas as pd
 from langchain_deepseek import ChatDeepSeek
 import warnings
 
-# 全局字体设置
+
 plt.rcParams["font.family"] = "Times New Roman"
 
-# 忽略弃用警告
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
-# API配置
-api_key = "sk-4sApAiQkXGzAkhr83eBxNwd4iUoxDNp4vomNmKEk4mJmyKLM"
+
+api_key = "" #please fill in your API key
 URL = "https://chat.cloudapi.vip/v1"
 
 model = ChatOpenAI(
@@ -89,7 +88,6 @@ REMEMBER:
 Begin!"""
     )
 
-    # 读取任务 Excel
     task_df = pd.read_excel("Task_for_client_25-50.xlsx")
     tasks = task_df["Task"].tolist()
 
@@ -99,7 +97,6 @@ Begin!"""
         print(f"\n\n===== Task {idx} =====\n{task}")
 
         try:
-            # 设置超时 180 秒
             response = await asyncio.wait_for(
                 agent.ainvoke({"messages": [("user", task)]}),
                 timeout=180
@@ -113,7 +110,6 @@ Begin!"""
                 resp_str = str(response).replace("\\n", "\n")
 
         except asyncio.TimeoutError:
-            print(f"⚠️ Task {idx} 超过 180 秒未响应，跳过该任务。")
             resp_str = "Timeout (exceeded 180 seconds)"
 
         results.append({
@@ -122,7 +118,6 @@ Begin!"""
             "Agent_Response": resp_str
         })
 
-        # 实时写入结果，防止中断丢失
         output_df = pd.DataFrame(results)
         output_df.to_excel(
             "MCP_agent_response_one_client_claude-sonnet-4-20250514.xlsx",
@@ -130,6 +125,7 @@ Begin!"""
         )
         print(f"Task {idx} saved to MCP_agent_response_one_client_claude-sonnet-4-20250514.xlsx")
 
-# 启动异步主程序
+
 if __name__ == "__main__":
     asyncio.run(main())
+
