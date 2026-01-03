@@ -1,3 +1,5 @@
+
+https://github.com/user-attachments/assets/e606297b-df81-4463-a113-80d66b686cc0
 # Large language model (LLM) agents based on tool chian generation (TCG)-tool execution (TE) pattern with graph-guided model context protocol (MCP) tools
 
 ## ⚠️ Important Notice ⚠️
@@ -14,12 +16,18 @@ Pending publication, the code is shared under a restrictive license. Once the pa
 
 ### 2.1 Operation of the developed prototype
 
-↓↓↓ A demonstration of using the **prototype** to operate the TCG-TE LNR agents using graph-guided MCP tools
+↓↓↓ A demonstration of using the developed **prototype** to operate the TCG-TE LNR agents using graph-guided MCP tools
 
 <video src="https://github.com/user-attachments/assets/62ce60a8-4f43-4ff6-a787-aa9784b2f03a" width="880"></video> 
 
+The full video to showcase the prototype and server updating can be found in: 
+
+↓↓↓ A demonstration of using the developed **prototype** to integrate a new MCP server to TCG-TE LNR agents
+
+<video src="https://github.com/user-attachments/assets/e82f1150-2a8f-474f-b5c4-1dd9c0fcb57c" width="880"></video> 
 
 The full video to showcase the prototype and server updating can be found in: 
+
 
 ### 2.2 Operation of agents based on NPG-TE pattern
 
