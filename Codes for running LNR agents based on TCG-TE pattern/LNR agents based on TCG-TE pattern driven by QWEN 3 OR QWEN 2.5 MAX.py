@@ -23,10 +23,10 @@ import warnings
 # 忽略弃用警告
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
-os.environ["OPENAI_API_KEY"] = "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"
-os.environ["DEEPSEEK_API_KEY"] = "sk-52ed0fadee5d48d5adf4ef46fd65896e"
+os.environ["OPENAI_API_KEY"] = "" #please fill in your API key
+os.environ["DEEPSEEK_API_KEY"] = "" #please fill in your API key
 deepseek_api_key=os.environ["DEEPSEEK_API_KEY"],
-bailian_api_key = "sk-68fea1d3d8d241fe914d58c9e1bd5158"  # set this in your environment
+bailian_api_key = ""  # set this in your environment
 bailian_base = "https://dashscope.aliyuncs.com/compatible-mode/v1"
 
 
@@ -185,4 +185,5 @@ async def main():
 
 
 if __name__ == "__main__":
+
     asyncio.run(main())
