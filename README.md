@@ -1,5 +1,3 @@
-
-https://github.com/user-attachments/assets/e606297b-df81-4463-a113-80d66b686cc0
 # Large language model (LLM) agents based on tool chian generation (TCG)-tool execution (TE) pattern with graph-guided model context protocol (MCP) tools
 
 ## ⚠️ Important Notice ⚠️
