@@ -10,16 +10,13 @@ import pandas as pd
 from langchain_deepseek import ChatDeepSeek
 
 
-# 设置OpenAI API密钥
-# os.environ["http_proxy"] = "http://localhost:7890"
-# os.environ["https_proxy"] = "http://localhost:7890"
 
 import warnings
 
-# 忽略弃用警告
+
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
-os.environ["DEEPSEEK_API_KEY"] = "sk-52ed0fadee5d48d5adf4ef46fd65896e"
+os.environ["DEEPSEEK_API_KEY"] = "" #please fill in your API key
 deepseek_api_key=os.environ["DEEPSEEK_API_KEY"],
 
 
@@ -100,7 +97,6 @@ Begin!""")
         print(f"\n\n===== Task {idx} =====\n{task}")
 
         try:
-            # 设置 60 秒超时
             response = await asyncio.wait_for(
                 agent.ainvoke({"messages": [("user", task)]}),
                 timeout=180
@@ -114,7 +110,6 @@ Begin!""")
                 resp_str = str(response).replace("\\n", "\n")
 
         except asyncio.TimeoutError:
-            print(f"Task {idx} 超时（180秒），已跳过。")
             resp_str = "Timeout: No response within 60 seconds."
 
         results.append({
@@ -123,7 +118,7 @@ Begin!""")
             "Agent_Response": resp_str
         })
 
-        # 立即写入文件（防止中途退出丢失数据）
+        
         output_df = pd.DataFrame(results)
         output_df.to_excel(
             "MCP_agent_response_one_client_deepseek_chat.xlsx",
@@ -141,4 +136,5 @@ if __name__ == "__main__":
 
 # 启动异步主程序
 if __name__ == "__main__":
+
     asyncio.run(main())
