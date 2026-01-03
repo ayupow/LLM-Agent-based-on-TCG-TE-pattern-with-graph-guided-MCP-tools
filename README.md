@@ -23,13 +23,13 @@ The full video to showcase the prototype and server updating can be found in:
 ### 2.2 Operation of agents based on NPG-TE pattern
 
 ↓↓↓ A snippet of operating the **NPG-TE agents with discrete MCP tools driven by GPT-5**.
-https://github.com/user-attachments/assets/5c7c539d-9b38-4b55-abbd-5fe7da966d7c
+! (https://github.com/user-attachments/assets/5c7c539d-9b38-4b55-abbd-5fe7da966d7c)
 
 ↓↓↓ A screenshot of Agent's response
 <img width="1812" height="692" alt="gpt-5-MCP" src="https://github.com/user-attachments/assets/b00b5897-06c3-4b75-a824-9fe72edafd2a" />
 
 ↓↓↓ A snippet of operating the **NPG-TE agents with discrete MCP tools driven by GPT-4o**.
-https://github.com/user-attachments/assets/040dbadc-c25b-461a-9bba-7391168058cb
+! (https://github.com/user-attachments/assets/040dbadc-c25b-461a-9bba-7391168058cb)
 
 ↓↓↓ A screenshot of Agent's response
 <img width="1803" height="541" alt="gpt-4o-MCP" src="https://github.com/user-attachments/assets/c96fd494-b805-49c8-a548-7dfc2476c9cf" />
