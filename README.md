@@ -19,14 +19,15 @@ Pending publication, the code is shared under a restrictive license. Once the pa
 
 <video src="https://github.com/user-attachments/assets/62ce60a8-4f43-4ff6-a787-aa9784b2f03a" width="880"></video> 
 
-The full video to showcase the prototype and server updating can be found in: 
+The full video could be found here
+<img width="1099" height="26" alt="屏幕截图 2026-01-03 201222" src="https://github.com/user-attachments/assets/b47b3296-cc02-40ae-acaa-9896678aeb14" />
 
 ↓↓↓ A demonstration of using the developed **prototype** to integrate a new MCP server to TCG-TE LNR agents
 
 <video src="https://github.com/user-attachments/assets/e82f1150-2a8f-474f-b5c4-1dd9c0fcb57c" width="880"></video> 
 
-The full video to showcase the prototype and server updating can be found in: 
-
+The full video could be found here
+<img width="1213" height="33" alt="屏幕截图 2026-01-03 201211" src="https://github.com/user-attachments/assets/4131b1e3-a234-4bb8-8ea5-b90479c8160b" />
 
 ### 2.2 Operation of agents based on NPG-TE pattern
 
@@ -37,6 +38,9 @@ The full video to showcase the prototype and server updating can be found in:
 ↓↓↓ A screenshot of Agent's response
 <img width="1812" height="692" alt="gpt-5-MCP" src="https://github.com/user-attachments/assets/b00b5897-06c3-4b75-a824-9fe72edafd2a" />
 
+The full video can be found here
+<img width="1194" height="30" alt="屏幕截图 2026-01-03 201138" src="https://github.com/user-attachments/assets/6fa1f839-6f05-4dfa-97f3-2ad70f37cd24" />
+
 ↓↓↓ A snippet of the operation of **NPG-TE agents with discrete MCP tools driven by GPT-4o**.
 
 <video src="https://github.com/user-attachments/assets/040dbadc-c25b-461a-9bba-7391168058cb" width="880"></video> 
@@ -44,14 +48,17 @@ The full video to showcase the prototype and server updating can be found in:
 ↓↓↓ A screenshot of Agent's response
 <img width="1803" height="541" alt="gpt-4o-MCP" src="https://github.com/user-attachments/assets/c96fd494-b805-49c8-a548-7dfc2476c9cf" />
 
-The full video can be found here ()
+The full video can be found here
+<img width="1214" height="32" alt="屏幕截图 2026-01-03 201102" src="https://github.com/user-attachments/assets/aa470a0f-8f0d-4df8-a6f1-1956ad205b6f" />
+
  
 ### 2.3 Operation of agents based on TCG-TE pattern
 
 ↓↓↓ A snippet of the operation of **TCG-TE agents with graph-guided MCP tools driven by Claude sonnet 3.7**.
 ![12月30日 (1)](https://github.com/user-attachments/assets/18879542-62bf-4bba-b764-f56af0d776d0)
 
-The full video can be found here ()
+The full video can be found here
+<img width="1283" height="35" alt="屏幕截图 2026-01-03 201151" src="https://github.com/user-attachments/assets/51abdd29-b4fe-4004-af89-84a6294d7bda" />
 
 ↓↓↓ A snippet of the operation of **TCG-TE agents with graph-guided MCP tools driven by GPT-4.1**.
 
@@ -60,7 +67,8 @@ The full video can be found here ()
 ↓↓↓ A snippet of the operation of
 <img width="1867" height="636" alt="gpt-4o-MCP-RAG" src="https://github.com/user-attachments/assets/cb356f9d-17bc-4adb-823c-8a32e5e23156" />
 
-The full video can be found here ()
+The full video can be found here
+<img width="1202" height="30" alt="屏幕截图 2026-01-03 201201" src="https://github.com/user-attachments/assets/177bccf2-53dc-4f6a-bd61-c3348f36708b" />
 
 ## 3. Repository Structure
 
