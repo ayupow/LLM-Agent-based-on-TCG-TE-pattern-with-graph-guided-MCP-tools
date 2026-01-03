@@ -10,17 +10,13 @@ import pandas as pd
 from langchain_deepseek import ChatDeepSeek
 
 
-# 设置OpenAI API密钥
-# os.environ["http_proxy"] = "http://localhost:7890"
-# os.environ["https_proxy"] = "http://localhost:7890"
-
 import warnings
 
-# 忽略弃用警告
+
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
-# Option A: pass keys explicitly when constructing (recommended for clarity in scripts)
-bailian_api_key = "sk-68fea1d3d8d241fe914d58c9e1bd5158"  # set this in your environment
+
+bailian_api_key = ""  #please fill in your API key
 bailian_base = "https://dashscope.aliyuncs.com/compatible-mode/v1"
 
 model = ChatOpenAI(
@@ -91,7 +87,6 @@ REMEMBER:
 3. Before all actions begin, you need to first plan the overall execution steps to complete the task.
 Begin!""")
 
-    # 读取任务 Excel
     task_df = pd.read_excel("Task_for_client.xlsx")
     tasks = task_df["Task"].tolist()
 
@@ -116,7 +111,6 @@ Begin!""")
             "Agent_Response": resp_str
         })
 
-        # 立即写入文件（防止中途退出丢失数据）
         output_df = pd.DataFrame(results)
         output_df.to_excel(
             "MCP_agent_response_one_client_qwen-max-latest.xlsx",
@@ -131,4 +125,5 @@ Begin!""")
 
 # 启动异步主程序
 if __name__ == "__main__":
+
     asyncio.run(main())
