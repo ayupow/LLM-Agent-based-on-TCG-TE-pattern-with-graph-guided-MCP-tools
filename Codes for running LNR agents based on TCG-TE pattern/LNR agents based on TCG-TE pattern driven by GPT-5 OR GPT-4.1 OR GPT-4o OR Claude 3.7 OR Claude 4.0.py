@@ -20,7 +20,6 @@ warnings.filterwarnings("ignore", category=DeprecationWarning, module="langchain
 
 import warnings
 
-# 忽略弃用警告
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 os.environ["OPENAI_API_KEY"] = "" #please fill in your API key
@@ -37,7 +36,7 @@ URL = "https://chat.cloudapi.vip/v1"
 # )
 model = ChatOpenAI(
     # temperature=0.0,
-    model_name="claude-sonnet-4-20250514-s",               # <<— replace with the Bailian model name you subscribed to
+    model_name="claude-sonnet-4-20250514-s",   
     openai_api_key=api_key,            # or use env var OPENAI_API_KEY
     openai_api_base=URL,              # sets the base URL to DashScope compatible endpoint
 )
@@ -189,11 +188,10 @@ async def main():
         )
 
         try:
-            # 使用 asyncio.wait_for 添加超时机制
             response = await asyncio.wait_for(
                 agent.ainvoke(
                     {"messages": [HumanMessage(content=combined_input)]},
-                    config={"recursion_limit": 25}  # 限制25轮
+                    config={"recursion_limit": 25}  
                 ),
                 timeout=TIMEOUT_SECONDS
             )
@@ -216,7 +214,6 @@ async def main():
             print(f"\nTask {i + 1} encountered an unexpected error: {str(e)}. Skipping this task.\n")
             output = f"Task skipped due to unexpected error: {str(e)}."
 
-        # 保存结果
         output_df.at[i, "agent_response"] = output
         output_df.to_excel(output_path, index=False)
         print(f"\nTask {i + 1} response written to '{output_path}'\n")
@@ -225,3 +222,4 @@ async def main():
 if __name__ == "__main__":
 
     asyncio.run(main())
+
