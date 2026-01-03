@@ -36,7 +36,13 @@ The full video can be found here ()
 
 ↓↓↓ A snippet of operating the **TCG-TE agents with graph-guided MCP tools driven by GPT-5**.
 
+Response of the LNR agent
+<img width="1812" height="692" alt="gpt-5-MCP" src="https://github.com/user-attachments/assets/b00b5897-06c3-4b75-a824-9fe72edafd2a" />
+
 ↓↓↓ A snippet of operating the **TCG-TE agents with graph-guided MCP tools driven by GPT-4.1**.
+
+Response of the LNR agent
+<img width="1867" height="636" alt="gpt-4o-MCP-RAG" src="https://github.com/user-attachments/assets/9c01e3eb-ba32-4f78-b6cf-b84a995a5374" />
 
 The full video can be found here ()
 
