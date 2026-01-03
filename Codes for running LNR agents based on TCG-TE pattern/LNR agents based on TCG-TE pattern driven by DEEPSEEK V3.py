@@ -17,24 +17,15 @@ import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning, module="langchain")
 
 
-# 设置OpenAI API密钥
-# os.environ["http_proxy"] = "http://localhost:7890"
-# os.environ["https_proxy"] = "http://localhost:7890"
 
 import warnings
 
-# 忽略弃用警告
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 os.environ["OPENAI_API_KEY"] = ""  #please fill in your API key
 os.environ["DEEPSEEK_API_KEY"] = " " #please fill in your API key
 deepseek_api_key=os.environ["DEEPSEEK_API_KEY"],
 
-# model = ChatOpenAI(
-#     openai_api_key=os.environ["OPENAI_API_KEY"],
-#     temperature=0,
-#     model_name='gpt-4o'
-# )
 
 model = ChatDeepSeek(
     temperature=0,
@@ -43,7 +34,6 @@ model = ChatDeepSeek(
 
 
 
-# gpt-3.5-turbo-0125
 
 async def main():
     client = MultiServerMCPClient(
@@ -150,7 +140,6 @@ Begin!""")
 
     TIMEOUT_SECONDS = 180
 
-    # 读取 mcp tool chains.xlsx
     df = pd.read_excel("mcp tool chains.xlsx")
     descriptions = df["Task"].tolist()
     Tool_Chain = df["Tool_Chain"].tolist()
@@ -175,11 +164,10 @@ Begin!""")
         )
 
         try:
-            # 使用 asyncio.wait_for 添加超时机制
             response = await asyncio.wait_for(
                 agent.ainvoke(
                     {"messages": [HumanMessage(content=combined_input)]},
-                    config={"recursion_limit": 25}  # 限制25轮
+                    config={"recursion_limit": 25} 
                 ),
                 timeout=TIMEOUT_SECONDS
             )
@@ -209,3 +197,4 @@ Begin!""")
 if __name__ == "__main__":
 
     asyncio.run(main())
+
