@@ -16,20 +16,20 @@ Pending publication, the code is shared under a restrictive license. Once the pa
 
 ↓↓↓ A demonstration of using the **prototype** to operate the TCG-TE LNR agents using graph-guided MCP tools
 
-<img width="880" height="436" alt="image" src="https://github.com/user-attachments/assets/e0bde126-5fe6-4b1e-820f-5d8b8ad7b488" />
+
 
 The full video to showcase the prototype and server updating can be found in: 
 
 ### 2.2 Operation of agents based on NPG-TE pattern
 
-↓↓↓ A snippet of operating the **NPG-TE agents with discrete MCP tools driven by GPT-5**.
+↓↓↓ A snippet of the operation of **NPG-TE agent with discrete MCP tools driven by GPT-5**.
 
 <video src="https://github.com/user-attachments/assets/5c7c539d-9b38-4b55-abbd-5fe7da966d7c" width="880"></video> 
 
 ↓↓↓ A screenshot of Agent's response
 <img width="1812" height="692" alt="gpt-5-MCP" src="https://github.com/user-attachments/assets/b00b5897-06c3-4b75-a824-9fe72edafd2a" />
 
-↓↓↓ A snippet of operating the **NPG-TE agents with discrete MCP tools driven by GPT-4o**.
+↓↓↓ A snippet of the operation of **NPG-TE agents with discrete MCP tools driven by GPT-4o**.
 
 <video src="https://github.com/user-attachments/assets/040dbadc-c25b-461a-9bba-7391168058cb" width="880"></video> 
 
@@ -38,19 +38,19 @@ The full video to showcase the prototype and server updating can be found in:
 
 The full video can be found here ()
  
-
 ### 2.3 Operation of agents based on TCG-TE pattern
 
-↓↓↓ A snippet of operating the **TCG-TE agents with graph-guided MCP tools driven by Claude sonnet 3.7**.
+↓↓↓ A snippet of the operation of **TCG-TE agents with graph-guided MCP tools driven by Claude sonnet 3.7**.
 ![12月30日 (1)](https://github.com/user-attachments/assets/18879542-62bf-4bba-b764-f56af0d776d0)
 
-↓↓↓ A snippet of operating the **TCG-TE agents with graph-guided MCP tools driven by GPT-5**.
+The full video can be found here ()
 
+↓↓↓ A snippet of the operation of **TCG-TE agents with graph-guided MCP tools driven by GPT-4.1**.
 
-↓↓↓ A snippet of operating the **TCG-TE agents with graph-guided MCP tools driven by GPT-4.1**.
+<video src="https://github.com/user-attachments/assets/8159ea48-1421-4158-b067-1bdcd8dd531e" width="880"></video> 
 
-Response of the LNR agent
-<img width="1867" height="636" alt="gpt-4o-MCP-RAG" src="https://github.com/user-attachments/assets/9c01e3eb-ba32-4f78-b6cf-b84a995a5374" />
+↓↓↓ A snippet of the operation of
+<img width="1867" height="636" alt="gpt-4o-MCP-RAG" src="https://github.com/user-attachments/assets/cb356f9d-17bc-4adb-823c-8a32e5e23156" />
 
 The full video can be found here ()
 
@@ -61,9 +61,7 @@ The full video can be found here ()
 
 This work heavily relies on excellent open-source projects, including but not limited to:
 - LangGraph & LangChain
-- 
 - Hugging Face MTEB leaderboard
-- 
 - NetworkX, PyTorch Geometric, and numerous LLM providers (OpenAI, Anthropic, Qwen, Llama, etc.)
 
 We are deeply grateful to all contributors of these foundational work.
