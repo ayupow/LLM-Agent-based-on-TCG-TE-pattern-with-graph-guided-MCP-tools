@@ -71,6 +71,7 @@ The full video can be found here
 <img width="1202" height="30" alt="屏幕截图 2026-01-03 201201" src="https://github.com/user-attachments/assets/177bccf2-53dc-4f6a-bd61-c3348f36708b" />
 
 ## 3. Repository Structure
+<img width="1426" height="804" alt="image" src="https://github.com/user-attachments/assets/b15c7e1f-a918-4400-85f0-3a4e67cf1943" />
 
 
 ## 4. Acknowledgments
