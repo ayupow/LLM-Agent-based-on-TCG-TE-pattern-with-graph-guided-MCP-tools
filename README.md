@@ -36,7 +36,7 @@ The full video could be found here
 <video src="https://github.com/user-attachments/assets/5c7c539d-9b38-4b55-abbd-5fe7da966d7c" width="880"></video> 
 
 ↓↓↓ A screenshot of Agent's response
-<img width="1812" height="692" alt="gpt-5-MCP" src="https://github.com/user-attachments/assets/b00b5897-06c3-4b75-a824-9fe72edafd2a" />
+<img width="1726" height="659" alt="image" src="https://github.com/user-attachments/assets/30e693c4-15e6-48ee-9e76-63fe79589bdf" />
 
 The full video can be found here
 <img width="1194" height="30" alt="屏幕截图 2026-01-03 201138" src="https://github.com/user-attachments/assets/6fa1f839-6f05-4dfa-97f3-2ad70f37cd24" />
@@ -46,7 +46,7 @@ The full video can be found here
 <video src="https://github.com/user-attachments/assets/040dbadc-c25b-461a-9bba-7391168058cb" width="880"></video> 
 
 ↓↓↓ A screenshot of Agent's response
-<img width="1803" height="541" alt="gpt-4o-MCP" src="https://github.com/user-attachments/assets/c96fd494-b805-49c8-a548-7dfc2476c9cf" />
+<img width="2000" height="601" alt="image" src="https://github.com/user-attachments/assets/825729a2-ae28-4f37-80a6-3fadba22b58d" />
 
 The full video can be found here
 <img width="1214" height="32" alt="屏幕截图 2026-01-03 201102" src="https://github.com/user-attachments/assets/aa470a0f-8f0d-4df8-a6f1-1956ad205b6f" />
@@ -65,7 +65,7 @@ The full video can be found here
 <video src="https://github.com/user-attachments/assets/8159ea48-1421-4158-b067-1bdcd8dd531e" width="880"></video> 
 
 ↓↓↓ A screenshot of Agent's response
-<img width="1867" height="636" alt="gpt-4o-MCP-RAG" src="https://github.com/user-attachments/assets/cb356f9d-17bc-4adb-823c-8a32e5e23156" />
+<img width="1728" height="531" alt="image" src="https://github.com/user-attachments/assets/4359d03f-f03d-48ce-af4c-88596f86366d" />
 
 The full video can be found here
 <img width="1202" height="30" alt="屏幕截图 2026-01-03 201201" src="https://github.com/user-attachments/assets/177bccf2-53dc-4f6a-bd61-c3348f36708b" />
