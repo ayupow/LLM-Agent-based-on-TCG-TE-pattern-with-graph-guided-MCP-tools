@@ -17,6 +17,7 @@ import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning, module="langchain")
 
 
+
 # 设置OpenAI API密钥
 # os.environ["http_proxy"] = "http://localhost:7890"
 # os.environ["https_proxy"] = "http://localhost:7890"
