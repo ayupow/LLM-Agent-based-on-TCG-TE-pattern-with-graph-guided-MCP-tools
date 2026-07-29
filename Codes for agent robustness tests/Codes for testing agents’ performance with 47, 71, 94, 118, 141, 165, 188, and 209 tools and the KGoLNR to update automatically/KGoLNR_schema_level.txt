@@ -1,0 +1,45 @@
+{
+  "graph_name": "KGoLNR",
+  "description": "Schema layer of the Knowledge Graph of Lifeline Network Recovery (KGoLNR), defining servers, tools, and their relationships.",
+  "node_types": {
+    "Server": {
+      "description": "MCP servers that host and provide access to corresponding tools.",
+      "attributes": {
+        "server_id": "string",
+        "server_name": "string",
+        "description": "string"
+      }
+    },
+    "Tool": {
+      "description": "Recovery tools available for LNR tasks.",
+      "attributes": {
+        "tool_id": "string",
+        "tool_name": "string",
+        "description": "string",
+        "input": "list",
+        "output": "list",
+        "category": "string"
+      }
+    }
+  },
+  "relationship_types": {
+    "includes": {
+      "source": "Server",
+      "target": "Tool",
+      "description": "A server hosts and provides a tool."
+    },
+    "supports": {
+      "source": "Tool",
+      "target": "Tool",
+      "description": "The output of one tool can support the input requirement of another tool."
+    }
+  },
+  "constraints": {
+    "includes": {
+      "condition": "Tool must be hosted on exactly one Server"
+    },
+    "supports": {
+      "condition": "Output of source Tool intersects with input of target Tool"
+    }
+  }
+}

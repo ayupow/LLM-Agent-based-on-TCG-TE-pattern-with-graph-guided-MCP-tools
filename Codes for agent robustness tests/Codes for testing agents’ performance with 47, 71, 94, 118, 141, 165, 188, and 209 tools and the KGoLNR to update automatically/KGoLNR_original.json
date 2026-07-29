@@ -1,0 +1,3174 @@
+﻿[
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "convert_SHPfile_to_JSONfile"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:0"
+      },
+      "end": {
+        "identity": 6,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "generate_interdependence_across_networks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "convert_SHPfile_to_JSONfile"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:0"
+          },
+          "relationship": {
+            "identity": 1152922604118474752,
+            "start": 0,
+            "end": 6,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1152922604118474752",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:0",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+          },
+          "end": {
+            "identity": 6,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "generate_interdependence_across_networks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 1,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "convert_CSVfile_to_JSONfile"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:1"
+      },
+      "end": {
+        "identity": 6,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "generate_interdependence_across_networks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 1,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "convert_CSVfile_to_JSONfile"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:1"
+          },
+          "relationship": {
+            "identity": 1152922604118474753,
+            "start": 1,
+            "end": 6,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1152922604118474753",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:1",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+          },
+          "end": {
+            "identity": 6,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "generate_interdependence_across_networks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 2,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "convert_DBFfile_to_JSONfile"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:2"
+      },
+      "end": {
+        "identity": 6,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "generate_interdependence_across_networks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 2,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "convert_DBFfile_to_JSONfile"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:2"
+          },
+          "relationship": {
+            "identity": 1152922604118474754,
+            "start": 2,
+            "end": 6,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1152922604118474754",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:2",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+          },
+          "end": {
+            "identity": 6,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "generate_interdependence_across_networks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 3,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "convert_DWGfile_to_JSONfile"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:3"
+      },
+      "end": {
+        "identity": 6,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "generate_interdependence_across_networks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 3,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "convert_DWGfile_to_JSONfile"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:3"
+          },
+          "relationship": {
+            "identity": 1152922604118474755,
+            "start": 3,
+            "end": 6,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1152922604118474755",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:3",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+          },
+          "end": {
+            "identity": 6,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "generate_interdependence_across_networks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 4,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "convert_KMZfile_to_JSONfile"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:4"
+      },
+      "end": {
+        "identity": 6,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "generate_interdependence_across_networks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 4,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "convert_KMZfile_to_JSONfile"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:4"
+          },
+          "relationship": {
+            "identity": 1152922604118474756,
+            "start": 4,
+            "end": 6,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1152922604118474756",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:4",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+          },
+          "end": {
+            "identity": 6,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "generate_interdependence_across_networks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 5,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "convert_RVTfile_to_JSONfile"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:5"
+      },
+      "end": {
+        "identity": 6,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "generate_interdependence_across_networks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 5,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "convert_RVTfile_to_JSONfile"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:5"
+          },
+          "relationship": {
+            "identity": 1152922604118474757,
+            "start": 5,
+            "end": 6,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1152922604118474757",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:5",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+          },
+          "end": {
+            "identity": 6,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "generate_interdependence_across_networks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 6,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "generate_interdependence_across_networks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+      },
+      "end": {
+        "identity": 7,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "simulate_failure_scenario_under_specific_nodes_targeted_attack"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:7"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 6,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "generate_interdependence_across_networks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+          },
+          "relationship": {
+            "identity": 1155174403932160006,
+            "start": 6,
+            "end": 7,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1155174403932160006",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:7"
+          },
+          "end": {
+            "identity": 7,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "simulate_failure_scenario_under_specific_nodes_targeted_attack"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:7"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 6,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "generate_interdependence_across_networks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+      },
+      "end": {
+        "identity": 8,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "simulate_failure_scenario_under_random_attacks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 6,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "generate_interdependence_across_networks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+          },
+          "relationship": {
+            "identity": 1157426203745845254,
+            "start": 6,
+            "end": 8,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1157426203745845254",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8"
+          },
+          "end": {
+            "identity": 8,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "simulate_failure_scenario_under_random_attacks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 6,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "generate_interdependence_across_networks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+      },
+      "end": {
+        "identity": 9,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "simulate_failure_scenario_under_danger_area_targeted_attacks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:9"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 6,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "generate_interdependence_across_networks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+          },
+          "relationship": {
+            "identity": 1159678003559530502,
+            "start": 6,
+            "end": 9,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1159678003559530502",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:9"
+          },
+          "end": {
+            "identity": 9,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "simulate_failure_scenario_under_danger_area_targeted_attacks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:9"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 6,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "generate_interdependence_across_networks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+      },
+      "end": {
+        "identity": 10,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "simulate_failure_scenario_using_overload_propagation"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:10"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 6,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "generate_interdependence_across_networks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+          },
+          "relationship": {
+            "identity": 1161929803373215750,
+            "start": 6,
+            "end": 10,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1161929803373215750",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:10"
+          },
+          "end": {
+            "identity": 10,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "simulate_failure_scenario_using_overload_propagation"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:10"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 6,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "generate_interdependence_across_networks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+      },
+      "end": {
+        "identity": 11,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "simulate_failure_scenario_using_FMEA_analysis"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:11"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 6,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "generate_interdependence_across_networks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+          },
+          "relationship": {
+            "identity": 1164181603186900998,
+            "start": 6,
+            "end": 11,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1164181603186900998",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:11"
+          },
+          "end": {
+            "identity": 11,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "simulate_failure_scenario_using_FMEA_analysis"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:11"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 6,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "generate_interdependence_across_networks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+      },
+      "end": {
+        "identity": 12,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "identify_critical_facilities_considering_betweenness"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:12"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 6,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "generate_interdependence_across_networks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+          },
+          "relationship": {
+            "identity": 1166433403000586246,
+            "start": 6,
+            "end": 12,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1166433403000586246",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:12"
+          },
+          "end": {
+            "identity": 12,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "identify_critical_facilities_considering_betweenness"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:12"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 6,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "generate_interdependence_across_networks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+      },
+      "end": {
+        "identity": 13,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "identify_critical_facilities_considering_closeness"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:13"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 6,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "generate_interdependence_across_networks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+          },
+          "relationship": {
+            "identity": 1168685202814271494,
+            "start": 6,
+            "end": 13,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1168685202814271494",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:13"
+          },
+          "end": {
+            "identity": 13,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "identify_critical_facilities_considering_closeness"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:13"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 6,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "generate_interdependence_across_networks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+      },
+      "end": {
+        "identity": 14,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "identify_critical_facilities_considering_degree"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:14"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 6,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "generate_interdependence_across_networks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+          },
+          "relationship": {
+            "identity": 1170937002627956742,
+            "start": 6,
+            "end": 14,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1170937002627956742",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:14"
+          },
+          "end": {
+            "identity": 14,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "identify_critical_facilities_considering_degree"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:14"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 6,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "generate_interdependence_across_networks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+      },
+      "end": {
+        "identity": 15,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "identify_critical_facilities_considering_katz"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:15"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 6,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "generate_interdependence_across_networks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+          },
+          "relationship": {
+            "identity": 1173188802441641990,
+            "start": 6,
+            "end": 15,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1173188802441641990",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:15"
+          },
+          "end": {
+            "identity": 15,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "identify_critical_facilities_considering_katz"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:15"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 6,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "generate_interdependence_across_networks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+      },
+      "end": {
+        "identity": 16,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "identify_critical_facilities_considering_kshell"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:16"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 6,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "generate_interdependence_across_networks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+          },
+          "relationship": {
+            "identity": 1175440602255327238,
+            "start": 6,
+            "end": 16,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1175440602255327238",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:16"
+          },
+          "end": {
+            "identity": 16,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "identify_critical_facilities_considering_kshell"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:16"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 6,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "generate_interdependence_across_networks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+      },
+      "end": {
+        "identity": 17,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "identify_critical_facilities_considering_PageRank_tool"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:17"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 6,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "generate_interdependence_across_networks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6"
+          },
+          "relationship": {
+            "identity": 1177692402069012486,
+            "start": 6,
+            "end": 17,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1177692402069012486",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:6",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:17"
+          },
+          "end": {
+            "identity": 17,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "identify_critical_facilities_considering_PageRank_tool"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:17"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 8,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "simulate_failure_scenario_under_random_attacks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8"
+      },
+      "end": {
+        "identity": 21,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "evaluate_ULS_performance_by_average_path_length"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:21"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 8,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "simulate_failure_scenario_under_random_attacks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8"
+          },
+          "relationship": {
+            "identity": 1152922604118474760,
+            "start": 8,
+            "end": 21,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1152922604118474760",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:21"
+          },
+          "end": {
+            "identity": 21,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "evaluate_ULS_performance_by_average_path_length"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:21"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 8,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "simulate_failure_scenario_under_random_attacks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8"
+      },
+      "end": {
+        "identity": 22,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "evaluate_ULS_performance_by_connectivily"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:22"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 8,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "simulate_failure_scenario_under_random_attacks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8"
+          },
+          "relationship": {
+            "identity": 1155174403932160008,
+            "start": 8,
+            "end": 22,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1155174403932160008",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:22"
+          },
+          "end": {
+            "identity": 22,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "evaluate_ULS_performance_by_connectivily"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:22"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 8,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "simulate_failure_scenario_under_random_attacks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8"
+      },
+      "end": {
+        "identity": 23,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "evaluate_ULS_performance_by_diameter"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:23"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 8,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "simulate_failure_scenario_under_random_attacks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8"
+          },
+          "relationship": {
+            "identity": 1159678003559530504,
+            "start": 8,
+            "end": 23,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1159678003559530504",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:23"
+          },
+          "end": {
+            "identity": 23,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "evaluate_ULS_performance_by_diameter"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:23"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 8,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "simulate_failure_scenario_under_random_attacks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8"
+      },
+      "end": {
+        "identity": 24,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "evaluate_ULS_performance_by_global_efficiency"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:24"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 8,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "simulate_failure_scenario_under_random_attacks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8"
+          },
+          "relationship": {
+            "identity": 1161929803373215752,
+            "start": 8,
+            "end": 24,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1161929803373215752",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:24"
+          },
+          "end": {
+            "identity": 24,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "evaluate_ULS_performance_by_global_efficiency"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:24"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 8,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "simulate_failure_scenario_under_random_attacks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8"
+      },
+      "end": {
+        "identity": 25,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "evaluate_ULS_performance_by_node_reachability"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:25"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 8,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "simulate_failure_scenario_under_random_attacks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8"
+          },
+          "relationship": {
+            "identity": 1164181603186901000,
+            "start": 8,
+            "end": 25,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1164181603186901000",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:25"
+          },
+          "end": {
+            "identity": 25,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "evaluate_ULS_performance_by_node_reachability"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:25"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 8,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "simulate_failure_scenario_under_random_attacks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8"
+      },
+      "end": {
+        "identity": 38,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "schedule_restoration_sequence_considering_population_by_GA"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:38"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 8,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "simulate_failure_scenario_under_random_attacks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8"
+          },
+          "relationship": {
+            "identity": 1166433403000586248,
+            "start": 8,
+            "end": 38,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1166433403000586248",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:38"
+          },
+          "end": {
+            "identity": 38,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "schedule_restoration_sequence_considering_population_by_GA"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:38"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 8,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "simulate_failure_scenario_under_random_attacks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8"
+      },
+      "end": {
+        "identity": 39,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "schedule_restoration_sequence_considering_population_by_SA"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:39"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 8,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "simulate_failure_scenario_under_random_attacks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8"
+          },
+          "relationship": {
+            "identity": 1168685202814271496,
+            "start": 8,
+            "end": 39,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1168685202814271496",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:39"
+          },
+          "end": {
+            "identity": 39,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "schedule_restoration_sequence_considering_population_by_SA"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:39"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 8,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "simulate_failure_scenario_under_random_attacks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8"
+      },
+      "end": {
+        "identity": 40,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "schedule_restoration_sequence_considering_GSCC_by_GA"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:40"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 8,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "simulate_failure_scenario_under_random_attacks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8"
+          },
+          "relationship": {
+            "identity": 1170937002627956744,
+            "start": 8,
+            "end": 40,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1170937002627956744",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:40"
+          },
+          "end": {
+            "identity": 40,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "schedule_restoration_sequence_considering_GSCC_by_GA"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:40"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 8,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "simulate_failure_scenario_under_random_attacks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8"
+      },
+      "end": {
+        "identity": 41,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "schedule_restoration_sequence_considering_GSCC_by_SA"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:41"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 8,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "simulate_failure_scenario_under_random_attacks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8"
+          },
+          "relationship": {
+            "identity": 1173188802441641992,
+            "start": 8,
+            "end": 41,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1173188802441641992",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:41"
+          },
+          "end": {
+            "identity": 41,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "schedule_restoration_sequence_considering_GSCC_by_SA"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:41"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 8,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "simulate_failure_scenario_under_random_attacks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8"
+      },
+      "end": {
+        "identity": 42,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "allocate_restoration_resource_considering_population"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:42"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 8,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "simulate_failure_scenario_under_random_attacks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8"
+          },
+          "relationship": {
+            "identity": 1175440602255327240,
+            "start": 8,
+            "end": 42,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1175440602255327240",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:42"
+          },
+          "end": {
+            "identity": 42,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "allocate_restoration_resource_considering_population"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:42"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 8,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "simulate_failure_scenario_under_random_attacks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8"
+      },
+      "end": {
+        "identity": 43,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "allocate_restoration_resource_considering_GSCC"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:43"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 8,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "simulate_failure_scenario_under_random_attacks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8"
+          },
+          "relationship": {
+            "identity": 1177692402069012488,
+            "start": 8,
+            "end": 43,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1177692402069012488",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:43"
+          },
+          "end": {
+            "identity": 43,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "allocate_restoration_resource_considering_GSCC"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:43"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 8,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "simulate_failure_scenario_under_random_attacks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8"
+      },
+      "end": {
+        "identity": 44,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "allocate_restoration_resource_considering_clustering_coefficient"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:44"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 8,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "simulate_failure_scenario_under_random_attacks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8"
+          },
+          "relationship": {
+            "identity": 1179944201882697736,
+            "start": 8,
+            "end": 44,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1179944201882697736",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:44"
+          },
+          "end": {
+            "identity": 44,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "allocate_restoration_resource_considering_clustering_coefficient"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:44"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 8,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "simulate_failure_scenario_under_random_attacks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8"
+      },
+      "end": {
+        "identity": 45,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "allocate_restoration_resource_considering_time"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:45"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 8,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "simulate_failure_scenario_under_random_attacks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8"
+          },
+          "relationship": {
+            "identity": 1182196001696382984,
+            "start": 8,
+            "end": 45,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1182196001696382984",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:45"
+          },
+          "end": {
+            "identity": 45,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "allocate_restoration_resource_considering_time"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:45"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 8,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "simulate_failure_scenario_under_random_attacks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8"
+      },
+      "end": {
+        "identity": 46,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "allocate_restoration_resource_considering_cost"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:46"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 8,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "simulate_failure_scenario_under_random_attacks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8"
+          },
+          "relationship": {
+            "identity": 1184447801510068232,
+            "start": 8,
+            "end": 46,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1184447801510068232",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:8",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:46"
+          },
+          "end": {
+            "identity": 46,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "allocate_restoration_resource_considering_cost"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:46"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 9,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "simulate_failure_scenario_under_danger_area_targeted_attacks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:9"
+      },
+      "end": {
+        "identity": 18,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "deploy_portable_equipment_considering_connectivity"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:18"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 9,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "simulate_failure_scenario_under_danger_area_targeted_attacks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:9"
+          },
+          "relationship": {
+            "identity": 1155174403932160009,
+            "start": 9,
+            "end": 18,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1155174403932160009",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:9",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:18"
+          },
+          "end": {
+            "identity": 18,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "deploy_portable_equipment_considering_connectivity"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:18"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 9,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "simulate_failure_scenario_under_danger_area_targeted_attacks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:9"
+      },
+      "end": {
+        "identity": 19,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "deploy_portable_equipment_considering_efficiency"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:19"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 9,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "simulate_failure_scenario_under_danger_area_targeted_attacks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:9"
+          },
+          "relationship": {
+            "identity": 1157426203745845257,
+            "start": 9,
+            "end": 19,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1157426203745845257",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:9",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:19"
+          },
+          "end": {
+            "identity": 19,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "deploy_portable_equipment_considering_efficiency"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:19"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 9,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "simulate_failure_scenario_under_danger_area_targeted_attacks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:9"
+      },
+      "end": {
+        "identity": 20,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "deploy_portable_equipment_considering_population"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:20"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 9,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "simulate_failure_scenario_under_danger_area_targeted_attacks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:9"
+          },
+          "relationship": {
+            "identity": 1161929803373215753,
+            "start": 9,
+            "end": 20,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1161929803373215753",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:9",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:20"
+          },
+          "end": {
+            "identity": 20,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "deploy_portable_equipment_considering_population"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:20"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 12,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "identify_critical_facilities_considering_betweenness"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:12"
+      },
+      "end": {
+        "identity": 9,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "simulate_failure_scenario_under_danger_area_targeted_attacks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:9"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 12,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "identify_critical_facilities_considering_betweenness"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:12"
+          },
+          "relationship": {
+            "identity": 1152922604118474764,
+            "start": 12,
+            "end": 9,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1152922604118474764",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:12",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:9"
+          },
+          "end": {
+            "identity": 9,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "simulate_failure_scenario_under_danger_area_targeted_attacks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:9"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 12,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "identify_critical_facilities_considering_betweenness"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:12"
+      },
+      "end": {
+        "identity": 26,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "evaluate_ULS_performance_by_population_betweenness"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:26"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 12,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "identify_critical_facilities_considering_betweenness"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:12"
+          },
+          "relationship": {
+            "identity": 1155174403932160012,
+            "start": 12,
+            "end": 26,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1155174403932160012",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:12",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:26"
+          },
+          "end": {
+            "identity": 26,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "evaluate_ULS_performance_by_population_betweenness"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:26"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 12,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "identify_critical_facilities_considering_betweenness"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:12"
+      },
+      "end": {
+        "identity": 32,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "schedule_restoration_sequence_considering_betweenness"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:32"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 12,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "identify_critical_facilities_considering_betweenness"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:12"
+          },
+          "relationship": {
+            "identity": 1157426203745845260,
+            "start": 12,
+            "end": 32,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1157426203745845260",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:12",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:32"
+          },
+          "end": {
+            "identity": 32,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "schedule_restoration_sequence_considering_betweenness"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:32"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 13,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "identify_critical_facilities_considering_closeness"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:13"
+      },
+      "end": {
+        "identity": 9,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "simulate_failure_scenario_under_danger_area_targeted_attacks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:9"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 13,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "identify_critical_facilities_considering_closeness"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:13"
+          },
+          "relationship": {
+            "identity": 1152922604118474765,
+            "start": 13,
+            "end": 9,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1152922604118474765",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:13",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:9"
+          },
+          "end": {
+            "identity": 9,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "simulate_failure_scenario_under_danger_area_targeted_attacks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:9"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 13,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "identify_critical_facilities_considering_closeness"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:13"
+      },
+      "end": {
+        "identity": 27,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "evaluate_ULS_performance_by_population_closeness"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:27"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 13,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "identify_critical_facilities_considering_closeness"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:13"
+          },
+          "relationship": {
+            "identity": 1155174403932160013,
+            "start": 13,
+            "end": 27,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1155174403932160013",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:13",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:27"
+          },
+          "end": {
+            "identity": 27,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "evaluate_ULS_performance_by_population_closeness"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:27"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 13,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "identify_critical_facilities_considering_closeness"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:13"
+      },
+      "end": {
+        "identity": 33,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "schedule_restoration_sequence_considering_closeness"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:33"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 13,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "identify_critical_facilities_considering_closeness"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:13"
+          },
+          "relationship": {
+            "identity": 1157426203745845261,
+            "start": 13,
+            "end": 33,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1157426203745845261",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:13",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:33"
+          },
+          "end": {
+            "identity": 33,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "schedule_restoration_sequence_considering_closeness"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:33"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 14,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "identify_critical_facilities_considering_degree"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:14"
+      },
+      "end": {
+        "identity": 9,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "simulate_failure_scenario_under_danger_area_targeted_attacks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:9"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 14,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "identify_critical_facilities_considering_degree"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:14"
+          },
+          "relationship": {
+            "identity": 1152922604118474766,
+            "start": 14,
+            "end": 9,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1152922604118474766",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:14",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:9"
+          },
+          "end": {
+            "identity": 9,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "simulate_failure_scenario_under_danger_area_targeted_attacks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:9"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 14,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "identify_critical_facilities_considering_degree"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:14"
+      },
+      "end": {
+        "identity": 28,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "evaluate_ULS_performance_by_population_degree"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:28"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 14,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "identify_critical_facilities_considering_degree"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:14"
+          },
+          "relationship": {
+            "identity": 1155174403932160014,
+            "start": 14,
+            "end": 28,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1155174403932160014",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:14",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:28"
+          },
+          "end": {
+            "identity": 28,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "evaluate_ULS_performance_by_population_degree"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:28"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 14,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "identify_critical_facilities_considering_degree"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:14"
+      },
+      "end": {
+        "identity": 34,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "schedule_restoration_sequence_considering_degree"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:34"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 14,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "identify_critical_facilities_considering_degree"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:14"
+          },
+          "relationship": {
+            "identity": 1157426203745845262,
+            "start": 14,
+            "end": 34,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1157426203745845262",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:14",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:34"
+          },
+          "end": {
+            "identity": 34,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "schedule_restoration_sequence_considering_degree"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:34"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 15,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "identify_critical_facilities_considering_katz"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:15"
+      },
+      "end": {
+        "identity": 9,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "simulate_failure_scenario_under_danger_area_targeted_attacks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:9"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 15,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "identify_critical_facilities_considering_katz"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:15"
+          },
+          "relationship": {
+            "identity": 1152922604118474767,
+            "start": 15,
+            "end": 9,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1152922604118474767",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:15",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:9"
+          },
+          "end": {
+            "identity": 9,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "simulate_failure_scenario_under_danger_area_targeted_attacks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:9"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 15,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "identify_critical_facilities_considering_katz"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:15"
+      },
+      "end": {
+        "identity": 29,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "evaluate_ULS_performance_by_population_katz"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:29"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 15,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "identify_critical_facilities_considering_katz"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:15"
+          },
+          "relationship": {
+            "identity": 1155174403932160015,
+            "start": 15,
+            "end": 29,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1155174403932160015",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:15",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:29"
+          },
+          "end": {
+            "identity": 29,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "evaluate_ULS_performance_by_population_katz"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:29"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 15,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "identify_critical_facilities_considering_katz"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:15"
+      },
+      "end": {
+        "identity": 35,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "schedule_restoration_sequence_considering_katz"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:35"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 15,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "identify_critical_facilities_considering_katz"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:15"
+          },
+          "relationship": {
+            "identity": 1157426203745845263,
+            "start": 15,
+            "end": 35,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1157426203745845263",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:15",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:35"
+          },
+          "end": {
+            "identity": 35,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "schedule_restoration_sequence_considering_katz"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:35"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 16,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "identify_critical_facilities_considering_kshell"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:16"
+      },
+      "end": {
+        "identity": 9,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "simulate_failure_scenario_under_danger_area_targeted_attacks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:9"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 16,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "identify_critical_facilities_considering_kshell"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:16"
+          },
+          "relationship": {
+            "identity": 1152922604118474768,
+            "start": 16,
+            "end": 9,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1152922604118474768",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:16",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:9"
+          },
+          "end": {
+            "identity": 9,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "simulate_failure_scenario_under_danger_area_targeted_attacks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:9"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 16,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "identify_critical_facilities_considering_kshell"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:16"
+      },
+      "end": {
+        "identity": 30,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "evaluate_ULS_performance_by_population_kshell_centrality"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:30"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 16,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "identify_critical_facilities_considering_kshell_centrality"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:16"
+          },
+          "relationship": {
+            "identity": 1155174403932160016,
+            "start": 16,
+            "end": 30,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1155174403932160016",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:16",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:30"
+          },
+          "end": {
+            "identity": 30,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "evaluate_ULS_performance_by_population_kshell_centrality"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:30"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 16,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "identify_critical_facilities_considering_kshell_centrality"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:16"
+      },
+      "end": {
+        "identity": 36,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "schedule_restoration_sequence_considering_kshell_centrality"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:36"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 16,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "identify_critical_facilities_considering_kshell_centrality"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:16"
+          },
+          "relationship": {
+            "identity": 1157426203745845264,
+            "start": 16,
+            "end": 36,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1157426203745845264",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:16",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:36"
+          },
+          "end": {
+            "identity": 36,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "schedule_restoration_sequence_considering_kshell_centrality"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:36"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 17,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "identify_critical_facilities_considering_PageRank_tool"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:17"
+      },
+      "end": {
+        "identity": 9,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "simulate_failure_scenario_under_danger_area_targeted_attacks"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:9"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 17,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "identify_critical_facilities_considering_PageRank_tool"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:17"
+          },
+          "relationship": {
+            "identity": 1152922604118474769,
+            "start": 17,
+            "end": 9,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1152922604118474769",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:17",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:9"
+          },
+          "end": {
+            "identity": 9,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "simulate_failure_scenario_under_danger_area_targeted_attacks"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:9"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 17,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "identify_critical_facilities_considering_PageRank_tool"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:17"
+      },
+      "end": {
+        "identity": 31,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "evaluate_ULS_performance_by_population_pagerank"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:31"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 17,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "identify_critical_facilities_considering_PageRank_tool"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:17"
+          },
+          "relationship": {
+            "identity": 1155174403932160017,
+            "start": 17,
+            "end": 31,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1155174403932160017",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:17",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:31"
+          },
+          "end": {
+            "identity": 31,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "evaluate_ULS_performance_by_population_pagerank"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:31"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 17,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "identify_critical_facilities_considering_PageRank_tool"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:17"
+      },
+      "end": {
+        "identity": 37,
+        "labels": [
+          "tool"
+        ],
+        "properties": {
+          "name": "schedule_restoration_sequence_considering_pagerank"
+        },
+        "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:37"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 17,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "identify_critical_facilities_considering_PageRank_tool"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:17"
+          },
+          "relationship": {
+            "identity": 1157426203745845265,
+            "start": 17,
+            "end": 37,
+            "type": "FEEDS",
+            "properties": {
+
+            },
+            "elementId": "5:5260ea67-9277-4164-b24f-1765727ecb69:1157426203745845265",
+            "startNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:17",
+            "endNodeElementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:37"
+          },
+          "end": {
+            "identity": 37,
+            "labels": [
+              "tool"
+            ],
+            "properties": {
+              "name": "schedule_restoration_sequence_considering_pagerank"
+            },
+            "elementId": "4:5260ea67-9277-4164-b24f-1765727ecb69:37"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  }
+]
