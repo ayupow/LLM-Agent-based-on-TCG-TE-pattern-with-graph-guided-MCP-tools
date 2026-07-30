@@ -1,8 +1,8 @@
-## 🚀🚀 Update 07/29
+## 🚀🚀 Update 07/29/2026
 The data and resources are updated as **highlighted🟨** below.
 <img width="1042" height="727" alt="屏幕截图 2026-07-29 204727" src="https://github.com/user-attachments/assets/8b431fc0-bb05-4458-a368-a91021d8a442" />
 
-## 🚀🚀 Update 07/29
+## 🚀🚀 Update 07/29/2026
 Some figures are available for public now:
 
 ### <img width="1042" height="489" alt="image" src="https://github.com/user-attachments/assets/22a28085-438c-4bea-970c-2ced3289f866" />
