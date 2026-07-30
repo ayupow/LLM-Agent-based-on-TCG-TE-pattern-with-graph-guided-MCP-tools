@@ -78,11 +78,15 @@ The full video can be found here
 
 The full video can be found here
 
+<img width="876" height="67" alt="屏幕截图 2026-07-30 142220" src="https://github.com/user-attachments/assets/86c73a4b-2001-4caf-839b-54225504d4cf" />
+
 ↓↓↓ A snippet of the operation of **NPG-TE (GoT) agent with discrete MCP tools driven by Deepseek-V3**.
 
 <img width="1000" height="500" alt="Operation of NPG-TE (GoT)-agents driven by DeepseekV3" src="https://github.com/user-attachments/assets/7b461855-dd00-45d4-925b-3636d31e30e1" />
 
 The full video can be found here
+
+<img width="872" height="95" alt="屏幕截图 2026-07-30 142203" src="https://github.com/user-attachments/assets/7d3b3381-5917-4c31-89b8-c00fe9ba0c11" />
 
 #### 2.2.3 Operation of agents based on NPG-TE pattern enabled by PE
 
@@ -92,6 +96,7 @@ The full video can be found here
 
 The full video can be found here
 
+<img width="908" height="76" alt="屏幕截图 2026-07-30 142235" src="https://github.com/user-attachments/assets/6196d834-4d44-48b8-b1c7-fa6eb8cf1201" />
 
 ### 2.3 Operation of agents based on TCG-TE pattern
 
