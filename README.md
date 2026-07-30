@@ -70,7 +70,7 @@ The full video can be found here
 The full video can be found here
 <img width="1214" height="32" alt="屏幕截图 2026-01-03 201102" src="https://github.com/user-attachments/assets/aa470a0f-8f0d-4df8-a6f1-1956ad205b6f" />
 
-#### 2.2.1 Operation of agents based on NPG-TE pattern enabled by GoT
+#### 2.2.2 Operation of agents based on NPG-TE pattern enabled by GoT
 
 ↓↓↓ A snippet of the operation of **NPG-TE (GoT) agent with discrete MCP tools driven by GPT-5**.
 
@@ -81,6 +81,14 @@ The full video can be found here
 ↓↓↓ A snippet of the operation of **NPG-TE (GoT) agent with discrete MCP tools driven by Deepseek-V3**.
 
 <img width="1000" height="500" alt="Operation of NPG-TE (GoT)-agents driven by DeepseekV3" src="https://github.com/user-attachments/assets/7b461855-dd00-45d4-925b-3636d31e30e1" />
+
+The full video can be found here
+
+#### 2.2.3 Operation of agents based on NPG-TE pattern enabled by PE
+
+↓↓↓ A snippet of the operation of **NPG-TE (PE) agent with discrete MCP tools driven by GPT-4o**.
+
+<img width="1000" height="500" alt="Operation of NPG-TE (PE)-agents driven by GPT-4o" src="https://github.com/user-attachments/assets/1a01a8ff-8802-4f97-a3ba-23571d76bdb6" />
 
 The full video can be found here
 
