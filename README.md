@@ -49,8 +49,8 @@ The full video could be found here
 <img width="1213" height="33" alt="屏幕截图 2026-01-03 201211" src="https://github.com/user-attachments/assets/4131b1e3-a234-4bb8-8ea5-b90479c8160b" />
 
 ### 2.2 Operation of agents based on NPG-TE pattern
-
-↓↓↓ A snippet of the operation of **NPG-TE agent with discrete MCP tools driven by GPT-5**.
+#### 2.2.1 Operation of agents based on NPG-TE pattern enabled by ReAct
+↓↓↓ A snippet of the operation of **NPG-TE (ReAct) agent with discrete MCP tools driven by GPT-5**.
 
 <video src="https://github.com/user-attachments/assets/5c7c539d-9b38-4b55-abbd-5fe7da966d7c" width="880"></video> 
 
@@ -60,7 +60,7 @@ The full video could be found here
 The full video can be found here
 <img width="1194" height="30" alt="屏幕截图 2026-01-03 201138" src="https://github.com/user-attachments/assets/6fa1f839-6f05-4dfa-97f3-2ad70f37cd24" />
 
-↓↓↓ A snippet of the operation of **NPG-TE agents with discrete MCP tools driven by GPT-4o**.
+↓↓↓ A snippet of the operation of **NPG-TE (ReAct) agents with discrete MCP tools driven by GPT-4o**.
 
 <video src="https://github.com/user-attachments/assets/040dbadc-c25b-461a-9bba-7391168058cb" width="880"></video> 
 
@@ -70,7 +70,21 @@ The full video can be found here
 The full video can be found here
 <img width="1214" height="32" alt="屏幕截图 2026-01-03 201102" src="https://github.com/user-attachments/assets/aa470a0f-8f0d-4df8-a6f1-1956ad205b6f" />
 
- 
+#### 2.2.1 Operation of agents based on NPG-TE pattern enabled by GoT
+
+↓↓↓ A snippet of the operation of **NPG-TE (GoT) agent with discrete MCP tools driven by GPT-5**.
+
+<img width="1000" height="500" alt="Operation of NPG-TE (GoT)-agents driven by GPT-5" src="https://github.com/user-attachments/assets/98ef79d1-0a9c-46cf-b6fa-084dae859119" />
+
+The full video can be found here
+
+↓↓↓ A snippet of the operation of **NPG-TE (GoT) agent with discrete MCP tools driven by Deepseek-V3**.
+
+<img width="1000" height="500" alt="Operation of NPG-TE (GoT)-agents driven by DeepseekV3" src="https://github.com/user-attachments/assets/7b461855-dd00-45d4-925b-3636d31e30e1" />
+
+The full video can be found here
+
+
 ### 2.3 Operation of agents based on TCG-TE pattern
 
 ↓↓↓ A snippet of the operation of **TCG-TE agents with graph-guided MCP tools driven by Claude sonnet 3.7**.
